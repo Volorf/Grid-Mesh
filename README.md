@@ -4,18 +4,18 @@ Create a mesh based grid for your cool Unity 3D project.
 ![Simple Grid Mesh](/gridMesh.gif)
 
 ## Three simple steps
-1. [Download it](https://raw.githubusercontent.com/Volorf/Hover3D.js/master/hover3D.js);
-2. Import `hover3D.js` to your Unity 3D project;
-3. Add `Grid Mesh` to a gameobject.
+1. [Import the Grid Mesh assset in your Unity 3D project](https://raw.githubusercontent.com/Volorf/Hover3D.js/master/hover3D.js);
+2. Add `GridMesh` component to a GameObject;
+3. Set it up.
 
-🔥 [YouTube Tutorial](https://olegfrolov.design/hover3D/)
+<!-- 🔥 [YouTube Tutorial](https://youtube.com/) -->
 
 ## How to set up it via Inspector
 
 ## How to set up it via Code
 You have a bunch of properties you can tweak to control the effect.
 ```csharp
-[SerializedField] private GridMesh _gridMesh;
+private GridMesh _gridMesh;
 private void Awake() 
 {
     _gridMesh = GetComponent<GridMesh>();
