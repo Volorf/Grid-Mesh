@@ -17,10 +17,10 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.1
+  m_FogDensity: 0.2
   m_LinearFogStart: 0.1
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -157,7 +157,7 @@ MonoBehaviour:
   zSegments: 64
   xStep: 1
   zStep: 1
-  mat: {fileID: 2100000, guid: 4a6594a4a645f4f86988247d8be86b9e, type: 2}
+  mat: {fileID: 2100000, guid: 26b971d0f93ea4907a0ec6b42544becd, type: 2}
   centered: 1
 --- !u!64 &164366750
 MeshCollider:
@@ -312,7 +312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166790247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -32}
+  m_LocalPosition: {x: 0, y: 1, z: -32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 257809598}
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166790247}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9acde3fbec5324f2e9144b1511871028, type: 3}
   m_Name: 
@@ -490,7 +490,7 @@ MonoBehaviour:
   zSegments: 64
   xStep: 1
   zStep: 1
-  mat: {fileID: 2100000, guid: 4a6594a4a645f4f86988247d8be86b9e, type: 2}
+  mat: {fileID: 2100000, guid: 26b971d0f93ea4907a0ec6b42544becd, type: 2}
   centered: 1
 --- !u!64 &837419046
 MeshCollider:
@@ -561,7 +561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837419044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1326691753
 Light:
   m_ObjectHideFlags: 0
