@@ -15,7 +15,7 @@ public class GridMesh : MonoBehaviour
     [Space]
     public Material mat;
     [Space]
-    public bool centered = true;
+    public bool isCentered = true;
 
     private float _xOffset = 0.0f;
     private float _zOffset = 0.0f;
@@ -30,7 +30,7 @@ public class GridMesh : MonoBehaviour
 
     private void Awake()
     {
-        if (centered)
+        if (isCentered)
         {
             _xOffset = xSegments * xStep / 2;
             _zOffset = zSegments * zStep / 2;

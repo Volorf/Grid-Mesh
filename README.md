@@ -1,4 +1,4 @@
-# Procedural Grid Mesh
+# Procedural Grid Mesh for Unity 3D
 Create a mesh based grid for your cool Unity 3D project.
 
 <!-- ![Grid Mesh Demo 1](/Images/gridMeshUnityInspector.png) -->
@@ -19,10 +19,8 @@ Create a mesh based grid for your cool Unity 3D project.
 * **`Mat`** allows you to set up a material.
 * **`Centered`** Centers the grid to the center of the game object
 
-
-
 ## How to set it up via Code
-You have a bunch of properties you can tweak to control the effect.
+You have a bunch of properties you can tweak to control the grid.
 
 ```csharp
 using UnityEngine;
