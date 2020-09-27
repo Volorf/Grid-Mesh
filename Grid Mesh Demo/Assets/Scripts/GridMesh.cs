@@ -119,6 +119,6 @@ public class GridMesh : MonoBehaviour
         _mesh.SetIndices(_indicies, MeshTopology.Lines, 0);
         _meshFilter.mesh = _mesh;
         
-        _meshRenderer.material = mat == null ? new Material(Shader.Find("Sprites/Default")) {color = Color.white} : mat;
+        _meshRenderer.material = mat == null ? new Material(Shader.Find("Sprites/Default")) {color = Color.magenta} : mat;
     }
 }

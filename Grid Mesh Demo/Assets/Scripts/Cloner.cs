@@ -18,7 +18,7 @@ public class Cloner : MonoBehaviour
             pos.x *= axeCloning.x;
             pos.y *= axeCloning.y;
             pos.z *= axeCloning.z;
-            Instantiate(go, pos, Quaternion.identity);
+            Instantiate(go, pos, go.transform.rotation);
         }
         Destroy(go);
     }
