@@ -14,10 +14,12 @@ Create a mesh based grid for your cool Unity 3D project.
 ## How to set up it via Inspector
 **`X Segments`** defines how many cell you will get on the X axis.
 **`Y Segments`** defines how many cell you will get on the Y axis.
+
 **`X Step`** defines a cell width.
+
 **`Y Step`** defines a cell height.
 **`Mat`** allows you to set up a material.
-**`Centered`** sets the center of the ongoing grid at the center of the gameobject.
+**`Centered`** Centers grid to the center of the game object
 ![Grid Mesh Unity 3D Inspector](/Images/gridMeshUnityInspector.png)
 
 ## How to set up it via Code
