@@ -1,5 +1,5 @@
 # Procedural Grid Mesh for Unity 3D
-Create a mesh based grid for your cool Unity 3D project.
+Create a procedural mesh-based grid for your cool Unity 3D project.
 
 <img src="Images/demo2.gif" width="600">
 
@@ -11,12 +11,12 @@ Create a mesh based grid for your cool Unity 3D project.
 ## How to set it up via Inspector
 <img src="Images/gridMeshUnityInspector.png" width="300">
 
-* **`X Segments`** defines how many cell you will get on the X axis.
-* **`Y Segments`** defines how many cell you will get on the Y axis.
+* **`X Segments`** defines how many cells you will get on the X-axis.
+* **`Y Segments`** defines how many cells you will get on the Y-axis.
 * **`X Step`** defines a cell width.
 * **`Y Step`** defines a cell height.
-* **`Material`** allows you to set up a material.
-* **`isCentered`** Centers the grid to the center of the game object
+* **`Material`** allows you to set up material.
+* **`isCentered`** Centers the grid to the centre of the game object
 
 ## How to set it up via Code
 You have a bunch of properties you can tweak to control the grid.
@@ -49,6 +49,9 @@ public class GridMeshManager : MonoBehaviour
 }
 ```
 
+## Good to know
+* Developed with Unity 2019.4 7f1. Tested with higher versions, it worked well;
+* Right now you can't change the thickness of the lines.
+
 ## Links
 [Portfolio](https://olegfrolov.design/) | [Linkedin](https://www.linkedin.com/in/oleg-frolov-6a6a4752/) | [Dribbble](https://dribbble.com/Volorf) | [Twitter](https://www.twitter.com/volorf) 
-
