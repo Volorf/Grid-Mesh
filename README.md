@@ -1,7 +1,7 @@
 # Procedural Grid Mesh for Unity 3D
 Create a mesh based grid for your cool Unity 3D project.
 
-<img src="Images/demo2.gif" width="400">
+<img src="Images/demo2.gif" width="600">
 
 ## Three simple steps
 1. [Download `GridMesh.cs`](https://raw.githubusercontent.com/Volorf/Hover3D.js/master/hover3D.js);
@@ -9,7 +9,7 @@ Create a mesh based grid for your cool Unity 3D project.
 3. Set it up.
 
 ## How to set it up via Inspector
-<img src="Images/gridMeshUnityInspector.png" width="400">
+<img src="Images/gridMeshUnityInspector.png" width="300">
 
 * **`X Segments`** defines how many cell you will get on the X axis.
 * **`Y Segments`** defines how many cell you will get on the Y axis.
