@@ -14,8 +14,8 @@ Create a mesh based grid for your cool Unity 3D project.
 * **`Y Segments`** defines how many cell you will get on the Y axis.
 * **`X Step`** defines a cell width.
 * **`Y Step`** defines a cell height.
-* **`Mat`** allows you to set up a material.
-* **`Centered`** Centers the grid to the center of the game object
+* **`Material`** allows you to set up a material.
+* **`isCentered`** Centers the grid to the center of the game object
 
 ## How to set it up via Code
 You have a bunch of properties you can tweak to control the grid.

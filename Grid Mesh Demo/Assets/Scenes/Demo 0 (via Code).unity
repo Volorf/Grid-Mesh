@@ -254,7 +254,7 @@ MonoBehaviour:
   ySegments: 8
   xStep: 1
   yStep: 1
-  material: {fileID: 0}
+  material: {fileID: 2100000, guid: 26b971d0f93ea4907a0ec6b42544becd, type: 2}
   isCentered: 1
 --- !u!64 &1218306627
 MeshCollider:
