@@ -1,7 +1,6 @@
 # Procedural Grid Mesh for Unity 3D
 Create a mesh based grid for your cool Unity 3D project.
 
-<!-- ![Grid Mesh Demo 2](/Images/demo2.gif) -->
 <img src="Images/demo2.gif" width="400">
 
 ## Three simple steps
@@ -10,7 +9,8 @@ Create a mesh based grid for your cool Unity 3D project.
 3. Set it up.
 
 ## How to set it up via Inspector
-![Grid Mesh Unity 3D Inspector](/Images/gridMeshUnityInspector.png)
+<img src="Images/gridMeshUnityInspector.png" width="400">
+
 * **`X Segments`** defines how many cell you will get on the X axis.
 * **`Y Segments`** defines how many cell you will get on the Y axis.
 * **`X Step`** defines a cell width.
