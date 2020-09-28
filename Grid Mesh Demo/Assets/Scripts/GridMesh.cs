@@ -8,12 +8,12 @@ public class GridMesh : MonoBehaviour
 {
     [Space]  
     public int xSegments = 8;
-    public int zSegments = 8;
+    public int ySegments = 8;
     [Space]
     public float xStep = 1.0f;
-    public float zStep = 1.0f;
+    public float yStep = 1.0f;
     [Space]
-    public Material mat;
+    public Material material;
     [Space]
     public bool isCentered = true;
 
@@ -33,7 +33,7 @@ public class GridMesh : MonoBehaviour
         if (isCentered)
         {
             _xOffset = xSegments * xStep / 2;
-            _zOffset = zSegments * zStep / 2;
+            _zOffset = ySegments * yStep / 2;
         }
         
         _mesh = new Mesh();
@@ -52,11 +52,11 @@ public class GridMesh : MonoBehaviour
 
     private void GenerateVerts()
     {
-        for (int z = 0; z <= zSegments; z++)
+        for (int z = 0; z <= ySegments; z++)
         {
             for (int x = 0; x <= xSegments; x++)
             {
-                _verticies.Add(new Vector3(x * xStep - _xOffset, 0, z * zStep - _zOffset));
+                _verticies.Add(new Vector3(x * xStep - _xOffset, 0, z * yStep - _zOffset));
             }
         }
     }
@@ -69,9 +69,9 @@ public class GridMesh : MonoBehaviour
         Vector3[] points = 
         {
             new Vector3(0f - _xOffset, 0f, 0f - _zOffset),
-            new Vector3(0f - _xOffset, 0f, zSegments * zStep - _zOffset),
+            new Vector3(0f - _xOffset, 0f, ySegments * yStep - _zOffset),
             new Vector3(xSegments * xStep - _xOffset, 0f, 0f - _zOffset),
-            new Vector3(xSegments * xStep - _xOffset, 0f, zSegments * zStep - _zOffset)
+            new Vector3(xSegments * xStep - _xOffset, 0f, ySegments * yStep - _zOffset)
         };
 
         int[] indicies =
@@ -89,7 +89,7 @@ public class GridMesh : MonoBehaviour
 
     private void GenerateIndicies()
     {
-        for (int vert = 0, z = 0; z < zSegments; z++)
+        for (int vert = 0, y = 0; y < ySegments; y++)
         {
             for (int x = 0; x < xSegments; x++)
             {
@@ -119,6 +119,6 @@ public class GridMesh : MonoBehaviour
         _mesh.SetIndices(_indicies, MeshTopology.Lines, 0);
         _meshFilter.mesh = _mesh;
         
-        _meshRenderer.material = mat == null ? new Material(Shader.Find("Sprites/Default")) {color = Color.magenta} : mat;
+        _meshRenderer.material = material == null ? new Material(Shader.Find("Sprites/Default")) {color = Color.magenta} : material;
     }
 }

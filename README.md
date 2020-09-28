@@ -32,23 +32,20 @@ public class GridMeshManager : MonoBehaviour
 
     private void Awake() 
     {
+        // Get GridMesh component
         _gridMesh = GetComponent<GridMesh>();
-    }
-
-    private void Start()
-    {
         // How many cell you will get on the X axis
-        _gridMesh.xSegments = 16;
+        _gridMesh.xSegments = 24;
         // How many cell you will get on the Y axis
         _gridMesh.ySegments = 16;
         // Cell width
         _gridMesh.xStep = 0.5f;
         // Cell height
-        _gridMesh.yStep = 0.5f;
+        _gridMesh.yStep = 1.0f;
         // Sets a material. By default it's magenta
         _gridMesh.material = gridMat;
         // Centers the grid to the game object
-        _gridMesh.centered = false;
+        _gridMesh.isCentered = true;
     }
 }
 ```
