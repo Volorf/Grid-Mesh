@@ -2,7 +2,7 @@
 Create a mesh based grid for your cool Unity 3D project.
 
 <!-- ![Grid Mesh Demo 2](/Images/demo2.gif) -->
-<img scr="Images/demo2.gif" width="400">
+<img src="Images/demo2.gif" width="400">
 
 ## Three simple steps
 1. [Download `GridMesh.cs`](https://raw.githubusercontent.com/Volorf/Hover3D.js/master/hover3D.js);
