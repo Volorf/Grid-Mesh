@@ -13,8 +13,8 @@ Create a procedural mesh-based grid for your cool Unity 3D project.
 
 * **`X Segments`** defines how many cells you will get on the X-axis.
 * **`Y Segments`** defines how many cells you will get on the Y-axis.
-* **`X Step`** defines a cell width.
-* **`Y Step`** defines a cell height.
+* **`X Step`** defines cell's width.
+* **`Y Step`** defines cell's height.
 * **`Material`** allows you to set up material.
 * **`isCentered`** Centers the grid to the centre of the game object
 
