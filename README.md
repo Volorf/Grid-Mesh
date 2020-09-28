@@ -1,14 +1,12 @@
 # Procedural Grid Mesh for Unity 3D
 Create a mesh based grid for your cool Unity 3D project.
 
-<!-- ![Grid Mesh Demo 1](/Images/gridMeshUnityInspector.png) -->
+![Grid Mesh Demo 2](/Images/demo2.gif)
 
 ## Three simple steps
 1. [Download `GridMesh.cs`](https://raw.githubusercontent.com/Volorf/Hover3D.js/master/hover3D.js);
-2. Add `GridMesh` component to a GameObject;
+2. Add `GridMesh` component to a game object;
 3. Set it up.
-
-<!-- 🔥 [YouTube Tutorial](https://youtube.com/) -->
 
 ## How to set it up via Inspector
 ![Grid Mesh Unity 3D Inspector](/Images/gridMeshUnityInspector.png)
@@ -35,13 +33,13 @@ public class GridMeshManager : MonoBehaviour
         // Get GridMesh component
         _gridMesh = GetComponent<GridMesh>();
         // How many cell you will get on the X axis
-        _gridMesh.xSegments = 24;
+        _gridMesh.xSegments = 8;
         // How many cell you will get on the Y axis
         _gridMesh.ySegments = 16;
         // Cell width
-        _gridMesh.xStep = 0.5f;
+        _gridMesh.xStep = 1f;
         // Cell height
-        _gridMesh.yStep = 1.0f;
+        _gridMesh.yStep = 0.5f;
         // Sets a material. By default it's magenta
         _gridMesh.material = gridMat;
         // Centers the grid to the game object
