@@ -1,5 +1,5 @@
-# Procedural Grid Mesh for Unity 3D
-Create a procedural mesh-based grid for your cool Unity 3D project.
+# Grid Mesh — procedural mesh-based grid for Unity 3D
+Create a procedural mesh-based grid for your cool project.
 
 <img src="Images/demo2.gif" width="600">
 
@@ -38,7 +38,7 @@ public class GridMeshManager : MonoBehaviour
         // How many cell you will get on the Y axis
         _gridMesh.ySegments = 16;
         // Cell width
-        _gridMesh.xStep = 1f;
+        _gridMesh.xStep = 1.0f;
         // Cell height
         _gridMesh.yStep = 0.5f;
         // Sets a material. By default it's magenta
