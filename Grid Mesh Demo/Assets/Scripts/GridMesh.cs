@@ -4,6 +4,7 @@ using System.Collections.Generic;
 [RequireComponent(typeof(MeshRenderer))]
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshCollider))]
+
 public class GridMesh : MonoBehaviour
 {
     [Space]  
