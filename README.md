@@ -1,5 +1,5 @@
-# Grid Mesh — procedural mesh-based grid for Unity 3D
-Create a procedural mesh-based grid for your cool project.
+# Grid Mesh
+Create a procedural mesh-based grid for your cool Unity 3D project.
 
 <img src="Images/demo2.gif" width="600">
 
