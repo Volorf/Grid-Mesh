@@ -4,12 +4,12 @@ Create a procedural mesh-based grid for your cool Unity 3D project.
 <img src="Images/demo2.gif" width="600">
 
 ## How to install the package
-1. Copy the Git URL
-   <img src="Images/copy-git-url.png" width="600">
-2. Open **`Window/Package Manager`** and paste the URL
-   <img src="Images/paste-git-url.png" width="600">
-3. Add the component
-<img src="Images/set-up.png" width="600">
+1) Copy the Git URL 
+![Copy Git URL](Images/copy-git-url.png)
+2. Open **`Window/Package Manager`** and paste the URL 
+![Paste Git URL](Images/paste-git-url.png)
+3) Add the component 
+![Add Component](Images/set-up.png)
 
 ## How to set it up via Inspector
 <img src="Images/gridMeshUnityInspector.png" width="300">
