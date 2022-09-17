@@ -3,10 +3,13 @@ Create a procedural mesh-based grid for your cool Unity 3D project.
 
 <img src="Images/demo2.gif" width="600">
 
-## Three simple steps
-1. [Get it](https://raw.githubusercontent.com/Volorf/Grid-Mesh/master/GridMesh.cs);
-2. Add `GridMesh` component to a game object;
-3. Set it up.
+## How to install the package
+1. Copy the Git URL
+   <img src="Images/copy-git-url.png" width="600">
+2. Open **`Window/Package Manager`** and paste the URL
+   <img src="Images/paste-git-url.png" width="600">
+3. Add the component
+<img src="Images/set-up.png" width="600">
 
 ## How to set it up via Inspector
 <img src="Images/gridMeshUnityInspector.png" width="300">
